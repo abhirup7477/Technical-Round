@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\bin\Debug\net9.0\CountWord.exe
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\bin\Debug\net9.0\CountWord.deps.json
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\bin\Debug\net9.0\CountWord.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\bin\Debug\net9.0\CountWord.dll
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\bin\Debug\net9.0\CountWord.pdb
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.dll
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\refint\CountWord.dll
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.pdb
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\CountWord.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\CountWord\obj\Debug\net9.0\ref\CountWord.dll

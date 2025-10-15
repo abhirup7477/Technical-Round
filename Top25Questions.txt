@@ -1,0 +1,66 @@
+🔥 Top 25 Placement Coding Questions
+✅ Arrays
+Two Sum – Find indices of two numbers that add up to target.
+
+Kadane’s Algorithm – Maximum subarray sum.
+
+Find Missing Number in range 1..n.
+
+Find Duplicate in Array (Hashing or Floyd’s cycle).
+
+Sort 0s, 1s, 2s (Dutch National Flag).
+
+Merge Two Sorted Arrays (without extra space).
+
+Kth Largest/Smallest Element (Heap/Quickselect).
+
+✅ Strings
+Check Palindrome String.
+
+Anagram Check (using frequency map).
+
+Longest Substring Without Repeating Characters (Sliding Window).
+
+First Non-Repeating Character.
+ 
+Valid Parentheses (Stack).
+
+Remove Outermost Parentheses.
+
+✅ Searching & Sorting
+Binary Search Variants – First/Last occurrence.
+
+Search in Rotated Sorted Array.
+
+Count Inversions (Merge Sort).
+
+✅ Linked List
+Reverse a Linked List (iterative + recursive).
+
+Detect Cycle in Linked List (Floyd’s Algorithm).
+
+Merge Two Sorted Linked Lists.
+
+✅ Stack / Queue
+Next Greater Element (Monotonic Stack).
+
+Implement Queue using Stacks (and vice versa).
+
+✅ Recursion / Backtracking
+Generate All Subsets (Power Set).
+
+Permutations of String/Array.
+
+N-Queens Problem (classic backtracking).
+
+✅ Dynamic Programming
+Climbing Stairs (Fibonacci DP).
+(🔥 Bonus: Longest Common Subsequence / Coin Change if time permits).
+
+⚡ Strategy to Prepare
+Practice 5–6 problems daily → finish in ~5 days.
+
+For each problem:
+🔹 Start with brute force → then optimize (HashMap, Sorting, Sliding Window, DP, etc.).
+🔹 Dry run on paper to understand.
+🔹 Implement in Java/Python.

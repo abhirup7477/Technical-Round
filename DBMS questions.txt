@@ -1,0 +1,86 @@
+Important DBMS questions for ami placement preparation
+ChatGPT said:
+
+Got it 👍 — for AMI placement preparation, DBMS questions usually focus on fundamentals, SQL queries, and scenarios (not too advanced).
+Here’s a crisp list of important DBMS questions you should prepare:
+
+🔹 1. Basics & Fundamentals
+
+What is DBMS? How is it different from File System?
+
+What is RDBMS? Give examples.
+
+What is a Primary Key, Foreign Key, Candidate Key, Composite Key?
+
+Difference between Super Key and Candidate Key.
+
+What are Constraints in DBMS? (NOT NULL, UNIQUE, CHECK, DEFAULT)
+
+What is Normalization? Explain 1NF, 2NF, 3NF with examples.
+
+What is Denormalization? When is it used?
+
+What are Indexes? Clustered vs Non-clustered Index.
+
+What is a View? Difference between View and Table.
+
+What are Transactions? Properties of Transaction (ACID).
+
+🔹 2. SQL Queries
+
+Write a query to fetch second highest salary from Employee table.
+
+Write a query to fetch duplicate records in a table.
+
+Write a query to fetch employees whose salary is greater than average salary.
+
+Write a query to count the number of employees department-wise.
+
+Difference between DELETE, TRUNCATE, DROP.
+
+Difference between WHERE and HAVING clause.
+
+Difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN.
+
+Use of GROUP BY with example.
+
+Difference between UNION and UNION ALL.
+
+Write a query to get the nth highest salary.
+
+🔹 3. Advanced Concepts (Basic Understanding)
+
+What is Deadlock in DBMS? How is it handled?
+
+What is a Trigger?
+
+What are Stored Procedures and Functions?
+
+What is a Cursor?
+
+Difference between OLTP and OLAP.
+
+What is Referential Integrity?
+
+What are Serializability and Concurrency control?
+
+🔹 4. Theory & Short Questions (often asked in MCQs)
+
+Difference between Schema and Instance.
+
+What is E-R Model? Entities, Attributes, Relationships.
+
+Difference between Weak Entity and Strong Entity.
+
+What is DDL, DML, DCL, TCL with examples?
+
+What is Data Independence? (Logical vs Physical)
+
+What is Shadow Paging / Write-Ahead Logging? (Transaction recovery basics).
+
+✅ Preparation Tip:
+Since AMI’s placement test is aptitude + C programming + DBMS, focus on:
+
+SQL query writing (very important)
+
+MCQ-level theory questions (normalization, keys, joins, transactions)

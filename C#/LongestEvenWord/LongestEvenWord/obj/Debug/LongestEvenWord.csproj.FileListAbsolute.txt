@@ -1,0 +1,8 @@
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\bin\Debug\LongestEvenWord.exe.config
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\bin\Debug\LongestEvenWord.exe
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\bin\Debug\LongestEvenWord.pdb
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\obj\Debug\LongestEvenWord.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\obj\Debug\LongestEvenWord.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\obj\Debug\LongestEvenWord.exe
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\obj\Debug\LongestEvenWord.pdb
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\LongestEvenWord\LongestEvenWord\obj\Debug\LongestEvenWord.exe.config

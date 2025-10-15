@@ -1,0 +1,107 @@
+🔹 1. Arrays
+Two Sum (find pair with target sum)
+
+Subarray Sum = K / Largest Subarray Sum (Kadane’s algorithm)
+
+Find duplicate in array
+
+Missing number in array (1..n)
+
+Sort 0s, 1s, 2s (Dutch national flag problem)
+
+Merge two sorted arrays
+
+Maximum product subarray
+
+Rotate array (by k places)
+
+🔹 2. Strings
+Palindrome check / Longest Palindromic Substring
+
+Anagram check
+
+Remove duplicates
+
+First non-repeating character
+
+Longest substring without repeating characters (sliding window)
+
+Valid Parentheses (stack)
+
+Remove outermost parentheses
+
+🔹 3. Searching & Sorting
+Binary Search variations (first/last occurrence, sqrt(x), peak element)
+
+Merge Sort / Quick Sort implementation
+
+Count Inversions in array
+
+Find Kth largest/smallest element (Heap/Quickselect)
+
+🔹 4. Linked List
+Reverse a linked list (iterative & recursive)
+
+Detect cycle in linked list (Floyd’s cycle detection)
+
+Merge two sorted linked lists
+
+Find middle of linked list
+
+Remove nth node from end
+
+🔹 5. Stack & Queue
+Implement stack/queue using arrays/linked list
+
+Next Greater Element
+
+Evaluate postfix/prefix expression
+
+LRU Cache (basic version)
+
+🔹 6. Recursion / Backtracking
+Factorial / Fibonacci
+
+Generate all subsets / subsequences
+
+Permutations of a string/array
+
+N-Queens (sometimes asked in product companies)
+
+Rat in a maze / Word search
+
+🔹 7. Trees & Graphs
+Binary tree traversals (inorder, preorder, postorder)
+
+Level order traversal (BFS)
+
+Height of a tree
+
+Lowest Common Ancestor (LCA)
+
+DFS/BFS in a graph
+
+Detect cycle in graph
+
+🔹 8. Dynamic Programming (for product companies / top tier)
+Climbing Stairs (Fibonacci variant)
+
+Coin Change
+
+Longest Common Subsequence
+
+Knapsack Problem
+
+Minimum edit distance
+
+✅ Pattern to notice:
+Most questions are variations of:
+
+Search in data
+
+Optimize time/space
+
+Use HashMap/Set, Stack, Queue, Sliding Window
+
+
+

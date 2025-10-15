@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Earth</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: black; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+
+    const loader = new THREE.TextureLoader();
+
+    // 🌍 Stable free textures (hosted on GitHub raw)
+    const earthDay = loader.load("https://raw.githubusercontent.com/rajtarang/threejs-earth-textures/main/2k_earth_daymap.jpg");
+    const earthClouds = loader.load("https://raw.githubusercontent.com/rajtarang/threejs-earth-textures/main/2k_earth_clouds.png");
+    const starsTexture = loader.load("https://raw.githubusercontent.com/rajtarang/threejs-earth-textures/main/8k_stars.jpg");
+
+    // Earth
+    const earthMaterial = new THREE.MeshPhongMaterial({
+      map: earthDay
+    });
+    const earth = new THREE.Mesh(new THREE.SphereGeometry(2, 64, 64), earthMaterial);
+    scene.add(earth);
+
+    // Clouds
+    const clouds = new THREE.Mesh(
+      new THREE.SphereGeometry(2.05, 64, 64),
+      new THREE.MeshPhongMaterial({ map: earthClouds, transparent: true, opacity: 0.4 })
+    );
+    scene.add(clouds);
+
+    // Stars
+    const stars = new THREE.Mesh(
+      new THREE.SphereGeometry(90, 64, 64),
+      new THREE.MeshBasicMaterial({ map: starsTexture, side: THREE.BackSide })
+    );
+    scene.add(stars);
+
+    // Light
+    const light = new THREE.DirectionalLight(0xffffff, 2);
+    light.position.set(5, 3, 5);
+    scene.add(light);
+
+    camera.position.z = 6;
+
+    function animate() {
+      requestAnimationFrame(animate);
+      earth.rotation.y += 0.002;
+      clouds.rotation.y += 0.0015;
+      renderer.render(scene, camera);
+    }
+    animate();
+  </script>
+</body>
+</html>

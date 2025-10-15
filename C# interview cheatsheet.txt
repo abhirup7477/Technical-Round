@@ -1,0 +1,95 @@
+String:
+
+📌 C# String Methods Cheat Sheet
+🔹 Creation & Info
+
+Length → Returns the number of characters in the string.
+
+IsNullOrEmpty(str) → Checks if string is null or empty.
+
+IsNullOrWhiteSpace(str) → Checks if string is null, empty, or only whitespace.
+
+🔹 Substrings & Slicing
+
+Substring(start, length) → Extracts part of a string.
+
+[..] (Range) → Slice using modern syntax (text[..5]).
+
+IndexOf("sub") → Returns index of first occurrence.
+
+int index = str1.IndexOf(str2, StringComparison.OrdinalIgnoreCase);
+Case insensitive substring searching operation.
+
+LastIndexOf("sub") → Returns index of last occurrence.
+
+🔹 Modification
+
+Replace("old","new") → Replaces substring.
+
+Insert(index, "sub") → Inserts text at given index.
+
+Remove(start, length) → Removes part of string.
+
+Trim() → Removes whitespace from start and end.
+
+TrimStart() / TrimEnd() → Removes whitespace from start/end only.
+
+PadLeft(width,'c') / PadRight(width,'c') → Pads with spaces/char.
+
+🔹 Case Conversion
+
+ToUpper() → Converts to uppercase.
+
+ToLower() → Converts to lowercase.
+
+ToTitleCase(str) → Capitalizes each word (via CultureInfo).
+
+🔹 Comparison
+
+Equals(str2) → Compares two strings.
+
+Compare(str1,str2) → Returns -1,0,1 depending on order.
+
+StartsWith("sub") → Checks if string starts with substring.
+
+EndsWith("sub") → Checks if string ends with substring.
+
+🔹 Splitting & Joining
+
+Split(' ') → Splits string into array by delimiter.
+
+Join(",", arr) → Joins array into string with delimiter.
+
+Concat(str1,str2,...) → Joins multiple strings.
+
+🔹 Search & Check
+
+Contains("sub") → Checks if substring exists.
+
+Any(char.IsDigit) (with LINQ) → Check if contains digit.
+
+StartsWith/EndsWith → Match prefix/suffix.
+
+🔹 Conversion
+
+ToCharArray() → Converts string to character array.
+
+String.Format("{0} {1}",a,b) → Format string with placeholders.
+
+$"{var}" (Interpolation) → Modern string interpolation.
+
+🔹 Special
+
+string.Empty → Represents an empty string "".
+
+null → String can be null (important in interviews).
+
+@$"multi-line {var}" → Verbatim + interpolation string (C# 11).
+
+⚡ Tip for Interviews (like Cognizant):
+
+Be ready to compare Substring() vs Range.
+
+They may ask about immutability of strings (strings are immutable, changes create new instances).
+
+Know difference between StringBuilder (mutable, better for performance in loops) and string.

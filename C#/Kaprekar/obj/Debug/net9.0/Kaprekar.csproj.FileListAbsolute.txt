@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\bin\Debug\net9.0\Kaprekar.exe
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\bin\Debug\net9.0\Kaprekar.deps.json
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\bin\Debug\net9.0\Kaprekar.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\bin\Debug\net9.0\Kaprekar.dll
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\bin\Debug\net9.0\Kaprekar.pdb
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.dll
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\refint\Kaprekar.dll
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.pdb
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\Kaprekar.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\Technical Round\C#\Kaprekar\obj\Debug\net9.0\ref\Kaprekar.dll

@@ -1,0 +1,63 @@
+1. Technical Prep (Most Important)
+
+Since your resume highlights SQL, C/C++, Python, Java, C#, JavaScript, React/Next.js, you should expect questions in these areas:
+
+a) Core CS Subjects (from your coursework section)
+
+Data Structures & Algorithms → Stack, Queue, Linked List, Sorting, Searching.
+
+DBMS & SQL → Joins, Normalization, Primary vs Foreign Key, Write SQL queries (Top N, Group By, Joins).
+
+OOPs → Encapsulation, Inheritance, Polymorphism (with examples in Java/C#/Python).
+
+OS → Deadlock, Scheduling algorithms, Virtual memory basics.
+
+Computer Networks → TCP vs UDP, OSI layers, HTTP vs HTTPS.
+
+b) Project-based Questions
+
+Blood Bank Management System → Be ready to explain:
+
+Why TypeScript over plain JS?
+
+How you handled data management?    
+
+Deployment process on Vercel.
+
+JavaScript Mini Projects → They might ask:
+
+How LocalStorage works.
+
+How you structured code for modularity.
+
+🔹 2. Coding Prep
+
+Be ready to solve simple-medium coding problems in interview:
+
+Reverse a string/linked list.
+
+Find duplicates in an array.
+
+SQL: “Find highest salary employee per department.”
+
+Since you solved coding well in assessment, expect 1–2 coding questions live.
+
+🔹 3. HR & Behavioral
+
+Introduce yourself (resume-based → education + projects + skills).
+
+Why Cognizant? (Answer: “Global exposure, training opportunities, GenC program for skill growth”).
+
+Strengths/weaknesses.
+
+Teamwork or conflict-handling example (football/cricket hobby can help here).
+
+“Where do you see yourself in 5 years?” → Say something like “growing into a skilled full-stack developer, contributing to large-scale projects”.
+
+🔹 4. Last-Minute Brush Up
+
+Revise basics of C#, SQL joins, OOPs, and JS concepts since you mentioned weak JS in test.
+
+Check your GitHub projects—sometimes they’ll ask you to walk through the code.
+
+Review common interview puzzles (like swapping numbers without temp, palindrome check).

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Rating System</title>
+
+  <!-- Font Awesome for stars -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    .star {
+      font-size: 30px;
+      cursor: pointer;
+      color: #ccc; /* default gray */
+    }
+    .star.filled {
+      color: #ffd700; /* gold */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="product">
+      <div class="product-image">
+        <img src="product.jpg" alt="Product">
+      </div>
+    </div>
+
+    <div class="rating">
+      <h2>Rate this Product</h2>
+      <p>Click on the stars below:</p>
+
+      <!-- ⭐⭐⭐⭐⭐ Stars -->
+      <div class="rating-stars">
+        <i class="fa fa-star star" onclick="setRating(1)"></i>
+        <i class="fa fa-star star" onclick="setRating(2)"></i>
+        <i class="fa fa-star star" onclick="setRating(3)"></i>
+        <i class="fa fa-star star" onclick="setRating(4)"></i>
+        <i class="fa fa-star star" onclick="setRating(5)"></i>
+      </div>
+
+      <!-- Rating Value -->
+      <p id="rating-value">Rating: 0</p>
+    </div>
+  </div>
+
+  <script>
+    function setRating(rating) {
+      let stars = document.querySelectorAll(".rating-stars .star");
+
+      stars.forEach((star, index) => {
+        if (index < rating) {
+          star.classList.add("filled");
+        } else {
+          star.classList.remove("filled");
+        }
+      });
+
+      // Update rating text
+      document.getElementById("rating-value").innerText = "Rating: " + rating;
+    }
+  </script>
+</body>
+</html>

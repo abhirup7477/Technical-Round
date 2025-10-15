@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chatbot</title>
+  <style>
+    .chat-container {
+      width: 400px;
+      height: 500px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      overflow-y: auto;
+    }
+    .message {
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 5px;
+      max-width: 80%;
+    }
+    .bot {
+      background-color: #e6e6e6;
+      text-align: left;
+    }
+    .user {
+      background-color: #cfe2ff; /* User chat in blue */
+      text-align: right;
+      margin-left: auto;
+    }
+    .input-area {
+      margin-top: 10px;
+      display: flex;
+    }
+    .input-area input {
+      flex: 1;
+      padding: 8px;
+    }
+    .input-area button {
+      padding: 8px 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container" id="chat-container">
+    <!-- Welcome message -->
+    <div class="message bot" id="welcome">Welcome! How can I help you today?</div>
+  </div>
+
+  <div class="input-area">
+    <input type="text" id="user-input" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script>
+    // Ensure welcome message is treated as a bot message
+    document.getElementById("welcome").classList.add("bot");
+
+    function sendMessage() {
+      const input = document.getElementById("user-input");
+      const msg = input.value.trim();
+
+      if (msg === "") return;
+
+      const chat = document.getElementById("chat-container");
+
+      // Add user message
+      const userMsg = document.createElement("div");
+      userMsg.classList.add("message", "user");
+      userMsg.textContent = msg;
+      chat.appendChild(userMsg);
+
+      // Bot smart responses
+      let response = "I'm not sure I understand. Can you rephrase?";
+      if (msg.toLowerCase().includes("hi") || msg.toLowerCase().includes("hello")) {
+        response = "Hello! Nice to see you. How can I help?";
+      } else if (msg.toLowerCase().includes("time")) {
+        response = "The current time is " + new Date().toLocaleTimeString();
+      } else if (msg.toLowerCase().includes("date")) {
+        response = "Today's date is " + new Date().toLocaleDateString();
+      } else if (msg.toLowerCase().includes("bye")) {
+        response = "Goodbye! Have a nice day 😊";
+      }
+
+      // Add bot response
+      const botMsg = document.createElement("div");
+      botMsg.classList.add("message", "bot");
+      botMsg.textContent = response;
+      chat.appendChild(botMsg);
+
+      input.value = "";
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    // Allow pressing Enter key to send message
+    document.getElementById("user-input").addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        sendMessage();
+      }
+    });
+
+    // const test = document.getElementById("welcome");
+    // console.log(test);
+    // test.setAttribute("hidden", "");
+    // test.removeAttribute("hidden");
+    // test.hidden = "true";
+    // test.hidden = "false";
+    // test.removeAttribute("hidden");
+
+    // test.addEventListener("click", (e) => {
+    //   // e.stopPropagation();
+    //   console.log(e);
+    //   console.log(e.target);
+    //   console.log(e.currentTarget);
+
+    //   e.target.style.backgroundColor = 'green';
+    // })
+  </script>
+</body>
+</html>
